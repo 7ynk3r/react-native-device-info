@@ -10,13 +10,13 @@ Device Information for react-native
 
 ## Installation
 
-First you need to install react-native-device-info:
-
-```javascript
-npm install react-native-device-info --save
+Just run the following 
 ```
+$ rnpm react-native-device-info
+```
+Note: Remember to install rnpm first ```$ npm install rnpm -g```
 
-### Installation (iOS)
+### Installation iOS only
 
 #### Installing via Cocoa Pods
 Add the following line to your build targets in your `Podfile`
@@ -42,7 +42,7 @@ Run your project (Cmd+R)
 
 (Thanks to @brysgo for writing the instructions)
 
-### Installation (Android)
+### Installation Android only
 
 * Add Gradle configuration changes
 
